@@ -12,6 +12,7 @@ int main()
   increment(x);
   std::cout << " After increment: " << x << std::endl;
 
+  
   system("pause");
   return 0;
 }
