@@ -28,7 +28,6 @@ My_cat::My_cat(int x, const char* cat_name) : weight(10) {
   number_of_cats++;
   
   
-
 	strcpy(name, cat_name);
 }
 
