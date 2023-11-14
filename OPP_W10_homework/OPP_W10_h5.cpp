@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cassert>
 
-
 class CEO
 {
 public:
@@ -49,3 +48,4 @@ int main()
 
   return 0;
 }
+
