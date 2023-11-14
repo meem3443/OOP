@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/breadd123456/Code_project/Study/OOP/OPP_grammer",
+      "program": "/Users/breadd123456/Code_project/Study/OOP/OPP_grammer/build/Debug/outDebug"
+    }
+  ]
+}

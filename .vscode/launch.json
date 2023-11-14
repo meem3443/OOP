@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/breadd123456/Code_project/Study/OOP/OPP_W6_homework",
-      "program": "/Users/breadd123456/Code_project/Study/OOP/OPP_W6_homework/build/Debug/outDebug"
+      "cwd": "/Users/breadd123456/Code_project/Study/OOP/OPP_W10_homework",
+      "program": "/Users/breadd123456/Code_project/Study/OOP/OPP_W10_homework/build/Debug/outDebug"
     }
   ]
 }

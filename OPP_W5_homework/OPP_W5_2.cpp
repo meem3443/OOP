@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+
 class My_cat {
 	char* name;
 	int weight;
@@ -11,6 +12,7 @@ public:
 	My_cat();
 	My_cat(const char* name);
 	My_cat(const My_cat& cat);
+	My_cat(My_cat&& cat);
 	~My_cat();
 
 	// eat 함수 선언
@@ -34,6 +36,10 @@ My_cat::My_cat(const My_cat& cat) : weight(10) { // Copy constructor
 	name = new char[strlen(cat.name) + 1];
 	strcpy(name, cat.name);
 }
+/*
+My_cat::My_cat(My_cat&& cat) : weight(10){
+
+}*/
 
 My_cat::~My_cat() {		// Destructor
 	if (name) delete[] name;

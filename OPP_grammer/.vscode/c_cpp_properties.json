@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "macos-clang-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "${default}",
+      "compilerArgs": [""]
+    },
+    {
+      "name": "macos-gcc-x64",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [],
+      "macFrameworkPath": [],
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "macos-gcc-x64"
+    }
+  ],
+  "version": 4
+}
