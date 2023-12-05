@@ -102,7 +102,6 @@ int main() {
     // 도형 팩토리 얻기
     AbstractFactoryPattern::FactoryProducer factoryProducer;
     AbstractFactoryPattern::AbstractFactory* shapeFactory = factoryProducer.getFactory(false);
-
     // Shape Rectangle 객체 얻기
     AbstractFactoryPattern::Shape* shape1 = shapeFactory->getShape("RECTANGLE");
     // Shape Rectangle의 draw 메서드 호출

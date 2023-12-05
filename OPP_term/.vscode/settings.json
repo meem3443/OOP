@@ -57,6 +57,9 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
+    "vector": "cpp",
+    "future": "cpp",
+    "iostream": "cpp",
     "__bit_reference": "cpp",
     "__config": "cpp",
     "__debug": "cpp",
@@ -89,7 +92,6 @@
     "initializer_list": "cpp",
     "ios": "cpp",
     "iosfwd": "cpp",
-    "iostream": "cpp",
     "istream": "cpp",
     "limits": "cpp",
     "locale": "cpp",
@@ -104,16 +106,12 @@
     "string": "cpp",
     "string_view": "cpp",
     "system_error": "cpp",
+    "thread": "cpp",
     "tuple": "cpp",
     "typeinfo": "cpp",
     "unordered_map": "cpp",
-    "variant": "cpp",
-    "vector": "cpp",
-    "algorithm": "cpp",
     "unordered_set": "cpp",
-    "thread": "cpp",
-    "future": "cpp",
-    "iomanip": "cpp",
-    "forward_list": "cpp"
+    "variant": "cpp",
+    "algorithm": "cpp"
   }
 }

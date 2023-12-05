@@ -6,8 +6,21 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/breadd123456/Code_project/Study/OOP/OPP_W10_homework",
-      "program": "/Users/breadd123456/Code_project/Study/OOP/OPP_W10_homework/build/Debug/outDebug"
+      "cwd": "/Users/breadd123456/Code_project/Study/OOP/OPP_W13_homework",
+      "program": "/Users/breadd123456/Code_project/Study/OOP/OPP_W13_homework/build/Debug/outDebug"
+    },
+    {
+      "name": "C/C++: gcc 활성 파일 빌드 및 디버그",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: gcc 활성 파일 빌드"
     }
   ]
 }
